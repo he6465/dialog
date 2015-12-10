@@ -32,8 +32,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         setTitle("사용자 정보 입력");
 
-        tvName = (TextView) findViewById(R.id.tvName);
-        tvEmail = (TextView) findViewById(R.id.tvEmail);
         button1 = (Button) findViewById(R.id.button1);
         edtName = (EditText) findViewById(R.id.edtName);
         edtEmail = (EditText) findViewById(R.id.edtEmail);
